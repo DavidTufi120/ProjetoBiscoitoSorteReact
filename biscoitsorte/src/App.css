@@ -13,6 +13,26 @@
   }
 }
 
+img{
+
+margin: 0 0 0 30%;
+width: 40%;
+
+
+}
+
+button {
+  margin: 0 0 0 46%;
+
+}
+
+button:hover{
+  transform: scale(2,2);
+  opacity: 0.8;
+  transition: all 1s;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
