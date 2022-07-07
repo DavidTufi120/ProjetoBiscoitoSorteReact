@@ -13,25 +13,42 @@
   }
 }
 
+@import url('https://fonts.googleapis.com/css?family=Gaegu');
+
+.container{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ align-items: center;
+}
+
 img{
-
-margin: 0 0 0 30%;
-width: 40%;
-
-
+margin-top: 2%;
+width: 30%;
 }
 
 button {
-  margin: 0 0 0 46%;
+ margin-top: 3%;
+  font-family: 'Gaegu', cursive;
+  border: 2px solid #333333;
+  border-radius: 15px;
+  box-shadow: none;
+  font-size: 20px;
+  width: 20%;
 
-}
+ }
 
 button:hover{
-  transform: scale(2,2);
-  opacity: 0.8;
-  transition: all 1s;
+  background-color: #333333;
+  border: 2px solid #000;
+  color: white;
+  transition: all 0.5s ease-out;
+  border-radius: 15px;
 }
 
+h3{
+  font-style: italic;
+}
 
 .App-header {
   background-color: #282c34;
